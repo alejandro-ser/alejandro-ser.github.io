@@ -5,8 +5,8 @@
 body {
 	width: 100%;
 	margin: 0px;
-	background-image: url(../img/matrix.gif);
-	background-repeat: repeat-y no-repeat;
+	background-image: url(../img/background.jpg);
+	*background-repeat: repeat-y no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -52,7 +52,7 @@ body {
 	}
 	.name {
 		text-align: center;
-		font-size: 2.8em;
+		font-size: 2.4em;
 		color: #7f7f7f;
 		margin-top: 15%;
 		margin-bottom: auto;
@@ -126,7 +126,7 @@ body {
 		padding-right: 4px;
 		padding-left: 4px;
 		text-align: center;
-		font-size: 2.5em;
+		font-size: 2.1em;
 		color: gainsboro;
 		margin-top: 16%;
 		margin-bottom: auto;
@@ -194,7 +194,7 @@ body {
 		padding-right: 4px;
 		padding-left: 4px;
 		text-align: center;
-		font-size: 2.8em;
+		font-size: 2.4em;
 		color: gainsboro;
 		margin-top: 16%;
 		margin-bottom: auto;
@@ -260,7 +260,7 @@ body {
 	}
 	.name {
 		text-align: center;
-		font-size: 2.5em;
+		font-size: 2.1em;
 		color: gainsboro;
 		margin-top: 16%;
 		margin-bottom: auto;
@@ -343,5 +343,5 @@ body {
 footer {
 	text-align: center;
 	color: white;
-	font-size: 1.2em
+	font-size: 1em
 }
