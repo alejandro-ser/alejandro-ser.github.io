@@ -12,14 +12,24 @@ body {
 	background-attachment: fixed;
 }
 
+.name {
+	color: #7f7f7f;
+}
+
 .icons>a {
 	text-decoration: none;
 	color: darkgray;
 }
 
+.location {
+	background-color: #282828;
+	color: #66ff66;
+}
+
 .location>a {
 	text-decoration: none;
-	color: white;
+	font-family: 'Lucida Console';
+	color: #66ff66;
 }
 
 .location:hover {
@@ -79,11 +89,9 @@ body {
 	}
 	.location {
 		text-align: center;
-		color: white;
 		font-size: 1.2em;
 		display: block;
-		background-color: cornflowerblue;
-		padding: 10px;
+		padding: 15px;
 		margin-left: 7%;
 		margin-right: 7%;
 		border-radius: 8px;
@@ -126,8 +134,7 @@ body {
 		padding-right: 4px;
 		padding-left: 4px;
 		text-align: center;
-		font-size: 2.1em;
-		color: gainsboro;
+		font-size: 1.8em;
 		margin-top: 16%;
 		margin-bottom: auto;
 		text-transform: capitalize;
@@ -147,11 +154,9 @@ body {
 	}
 	.location {
 		text-align: center;
-		color: white;
-		font-size: 0.6em;
+		font-size: 1em;
 		display: block;
-		background-color: cornflowerblue;
-		padding: 10px;
+		padding: 15px;
 		margin-left: 7%;
 		margin-right: 7%;
 		border-radius: 8px;
@@ -194,8 +199,7 @@ body {
 		padding-right: 4px;
 		padding-left: 4px;
 		text-align: center;
-		font-size: 2.4em;
-		color: gainsboro;
+		font-size: 1.8em;
 		margin-top: 16%;
 		margin-bottom: auto;
 		text-transform: capitalize;
@@ -215,11 +219,9 @@ body {
 	}
 	.location {
 		text-align: center;
-		color: white;
 		font-size: 1.2em;
 		display: block;
-		background-color: cornflowerblue;
-		padding: 10px;
+		padding: 15px;
 		margin-left: 7%;
 		margin-right: 7%;
 		border-radius: 8px;
@@ -260,8 +262,7 @@ body {
 	}
 	.name {
 		text-align: center;
-		font-size: 2.1em;
-		color: gainsboro;
+		font-size: 2em;
 		margin-top: 16%;
 		margin-bottom: auto;
 		text-transform: capitalize;
@@ -281,11 +282,9 @@ body {
 	}
 	.location {
 		text-align: center;
-		color: white;
 		font-size: 1.2em;
 		display: block;
-		background-color: cornflowerblue;
-		padding: 10px;
+		padding: 15px;
 		margin-left: 7%;
 		margin-right: 7%;
 		border-radius: 8px;
@@ -344,4 +343,8 @@ footer {
 	text-align: center;
 	color: white;
 	font-size: 1em
+}
+
+footer i {
+	color: #c0392b;
 }
