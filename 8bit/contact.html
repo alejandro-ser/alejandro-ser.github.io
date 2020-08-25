@@ -9,23 +9,75 @@
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body class="text-center full-body">
+<body class="text-center pt-4 full-body">
     <div class="container p-3 d-flex flex-column h-100 mx-auto">
-        <header class="mb-auto">
+        <header class="mb-4">
             <h3 class="masthead-brand">
-                <i class="nes-icon coin"></i> Alejandro Ser.
+                <i class="nes-icon coin"></i> Alejandro
             </h3>
             <nav class="nav nav-masthead justify-content-center">
-                <a href="index.html" class="nav-link">Inicio</a>
-                <a href="portfolio.html" class="nav-link">Portafolio</a>
-                <a href="cv.html" class="nav-link">CV</a>
-                <a href="contact.html" class="nav-link active">Contacto</a>
+                <a href="index.html" class="nav-link text-black-50">Inicio</a>
+                <a href="portfolio.html" class="nav-link text-black-50">Portafolio</a>
+                <a href="cv.html" class="nav-link text-black-50">CV</a>
+                <a href="contact.html" class="nav-link active text-black-50">Contacto</a>
             </nav>
         </header>
-        <main role="main" class="nes-container with-title is-centered my-5">
-            
+        <main role="main" class="nes-container with-title is-centered my-5 shadow-lg mb-5 bg-warning">
+            <h1 class="title">Contacto</h1>
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <form action="" class="form-horizontal">
+                        <div class="nes-balloon from-left mt-4">
+                            <h6 class="text-center mb-4">
+                                Enviame un mesaje, correo o contactame por redes sociales
+                            </h6>
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <label for="name" class="control-label">Nombre</label>
+                            <div class="col-md-12">
+                                <input type="text" class="nes-input form-control" id="name" placeholder="Tu nombre">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name" class="control-label">Correo</label>
+                            <div class="col-md-12">
+                                <input type="text" class="nes-input form-control" id="email" placeholder="Tu correo">
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="name" class="control-label">Mensaje</label>
+                            <div class="col-md-12">
+                                <textarea rows="5" class="nes-input form-control" id="message" placeholder="Ingresa tu mnesaje"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-10">
+                                <button type="submit" class="nes-btn is-primary btn-block">Enviar</buttonty>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </main>
-        <footer class="mt-auto">
+        <div class="nes-container is-center with-title my-4 shadow-lg bg-warning">
+            <h1 class="title">Redes</h1>
+        <div class="icon-list">
+            <a href="#">
+                <i class="nes-icon is-medium github"></i>
+            </a>
+            <a href="#">
+                <i class="nes-icon is-medium linkedin"></i>
+            </a>
+            <a href="#">
+                <i class="nes-icon is-medium gmail"></i>
+            </a>
+        </div>
+        </div>
+        <footer class="mt-5">
             <p>Hecho con <i class="nes-icon is-small heart"></i> por <a href="https://alejandro-ser.github.io/" target="_blank">@alejo</a></p>
         </footer>
     </div>

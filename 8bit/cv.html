@@ -9,23 +9,261 @@
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body class="text-center full-body">
-    <div class="container p-3 d-flex flex-column h-100 mx-auto">
+<body class="text-center full-body pt-4 bg-warning">
+    <div class="container p-3 mb-2 d-flex flex-column h-100 mx-auto">
         <header class="mb-auto">
             <h3 class="masthead-brand">
-                <i class="nes-icon coin"></i> Alejandro Ser.
+                <i class="nes-icon coin"></i> Alejandro
             </h3>
             <nav class="nav nav-masthead justify-content-center">
-                <a href="index.html" class="nav-link">Inicio</a>
-                <a href="portfolio.html" class="nav-link">Portafolio</a>
-                <a href="cv.html" class="nav-link active">CV</a>
-                <a href="contact.html" class="nav-link">Contacto</a>
+                <a href="index.html" class="nav-link text-black-50">Inicio</a>
+                <a href="portfolio.html" class="nav-link text-black-50">Portafolio</a>
+                <a href="cv.html" class="nav-link active text-black-50">CV</a>
+                <a href="contact.html" class="nav-link text-black-50">Contacto</a>
             </nav>
         </header>
-        <main role="main" class="nes-container with-title is-centered my-5">
-            
-        </main>
-        <footer class="mt-auto">
+    </div>
+
+    <div class="container">
+        <div class="row mb-5 align-items-center">
+            <div class="col-md-3">
+                <img src="../img/alejo_8bit.jpeg" alt="Alejo" class="img-fluid rounded-circle border border-dark shadow-lg">
+            </div>
+            <div class="col-md-9">
+                <div class="nes-balloon from-left shadow-lg">
+                    <p>
+                        Conoce mi perfíl y la experiencia como desarrollador web..
+                        <i ass="nes-icon is-samll hearth"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <!-- <section class="nes-container is-dark with-title mb-5">
+                    <h1 class="title">Hobbies</h1>
+                    <div class="lists">
+                        <ul class="nes-list is-circle pl-3 text-left">
+                            <li class="pl-1">Programar</li>
+                            <li class="pl-1">Montar en bicicleta</li>
+                            <li class="pl-1">Jugar ultimate frisbee</li>
+                            <li class="pl-1">Viajar</li>
+                        </ul>
+                    </div>
+                </section> -->
+
+                <section class="nes-container with-title mb-5 shadow-lg bg-white">
+                    <h1 class="title">Idiomas</h1>
+                    <ul class="text-left list-unstyled">
+                        <li>
+                            <i class="nes-icon heart"></i> Español
+                        </li>
+                        <li>
+                            <i class="nes-icon star"></i> Ingles
+                        </li>
+                        <li>
+                            <i class="nes-icon star is-half"></i> Aleman
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="nes-container is-dark with-title mb-5 shadow-lg">
+                    <h1 class="title">Contacto</h1>
+                    <div class="py-3">
+                        <a href="#">
+                            <i class="nes-icon is-medium github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="nes-icon is-medium linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="nes-icon is-medium gmail"></i>
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-md-9">
+                <section class="nes-container with-title mb-5 shadow-lg is-dark">
+                    <h1 class="title">Skills</h1>
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            HTMl
+                        </div>
+                        <div class="col-md-9">
+                            <progress class="nes-progress is-primary" value="90" max="100"></progress>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            CSS
+                        </div>
+                        <div class="col-md-9">
+                            <progress class="nes-progress is-success" value="90" max="100"></progress>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            JavaScript
+                        </div>
+                        <div class="col-md-9">
+                            <progress class="nes-progress is-warning" value="70" max="100"></progress>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            PHP
+                        </div>
+                        <div class="col-md-9">
+                            <progress class="nes-progress is-error" value="70" max="100"></progress>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap
+                    sass
+                    jquery
+                    reactJS
+                    Laravel
+                    SQL
+                    GIT
+                    Linux -->
+                </section>
+
+                <h3 class="title mb-4">
+                    <i class="nes-icon star"></i>
+                    Experiencia laboral
+                </h3>
+
+                <div class="nes-table-responsive mb-5">
+                    <table class="nes-table is-bordered is-centered mx-auto shadow-lg">
+                        <thead>
+                            <tr>
+                                <th>Empresa</th>
+                                <th>Periodo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h6>PeopleContact SAS</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-warning">Practica</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Noviembre 2012 - Mayo 2013</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>WebDeFamily</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-primary">Backend</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Diciembre 2013 - Diciembre 2014</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>StarEnWeb</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-primary">Backend</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Febrero 2015 - Agosto 2015</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>ProcessMaker</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-success">Frontend</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Octubre 2016 - Noviembre 2017</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>Co-Workers</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-success">Frontend</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Agosto 2017 - Marzo 2018</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>S.Q.D.M. S.A.S.</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-primary">Backend</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Julio 2018 - Marzo 2019</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>EMA Servicios</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-primary">Backend</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Mayo 2019 - Diciembre 2019</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>CWTI</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-dark">Fullstack</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Junio 2020 - Septiembre 2020</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <section class="nes-container with-title mb-4 is-dark shadow-lg">
+                    <h1 class="title">Educación</h1>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-9">
+                            <p>Tecnólogia en:</p>
+                            <h6>Analisis y Desarrollo de Sistemas de Indormación (ADSI)</h6>
+                            <small>Servicio Nacional de Aprendizaje (SENA)</small>
+                        </div>
+                        <div class="col-md-3">
+                            <p>2011 - 2013</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-9">
+                            <p>Especialización en:</p>
+                            <h6>Desarrollo de aplicaciones para dispositivos moviles</h6>
+                            <small>Servicio Nacional de Aprendizaje (SENA)</small>
+                        </div>
+                        <div class="col-md-3">
+                            <p>2015 - 2016</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <footer class="mt-4">
             <p>Hecho con <i class="nes-icon is-small heart"></i> por <a href="https://alejandro-ser.github.io/" target="_blank">@alejo</a></p>
         </footer>
     </div>
