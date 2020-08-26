@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alejandro S. Giraldo</title>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body class="text-center full-body pt-4 bg-warning">
     <div class="container p-3 mb-2 d-flex flex-column h-100 mx-auto">
-        <header class="mb-auto">
+        <header class="animate__animated animate__fadeIn">
             <h3 class="masthead-brand">
-                <i class="nes-icon coin"></i> Alejandro
+                <i class="nes-icon star"></i> Alejandro
             </h3>
             <nav class="nav nav-masthead justify-content-center">
                 <a href="index.html" class="nav-link text-black-50">Inicio</a>
@@ -25,14 +26,14 @@
     </div>
 
     <div class="container">
-        <div class="row mb-5 align-items-center">
-            <div class="col-md-3">
-                <img src="../img/alejo_8bit.jpeg" alt="Alejo" class="img-fluid rounded-circle border border-dark shadow-lg">
+        <div class="row mb-2 align-items-center">
+            <div class="col-md-3 p-5">
+                <img src="../img/alejo_8bit.jpeg" alt="Alejo" class="img-fluid nes-img shadow-lg animate__animated animate__fadeInLeft animate__slow">
             </div>
             <div class="col-md-9">
-                <div class="nes-balloon from-left shadow-lg">
+                <div class="nes-balloon from-left shadow-lg animate__animated animate__fadeInDown animate__slow">
                     <p>
-                        Conoce mi perfíl y la experiencia como desarrollador web..
+                        Conoce mi perfíl y experiencia como desarrollador web..
                         <i ass="nes-icon is-samll hearth"></i>
                     </p>
                 </div>
@@ -53,14 +54,14 @@
                     </div>
                 </section> -->
 
-                <section class="nes-container with-title mb-5 shadow-lg bg-white">
-                    <h1 class="title">Idiomas</h1>
+                <section class="nes-container with-title mb-5 shadow-lg bg-white animate__animated animate__fadeInLeft animate__delay-1s animate__slow">
+                    <h4 class="title">Idiomas</h4>
                     <ul class="text-left list-unstyled">
                         <li>
                             <i class="nes-icon heart"></i> Español
                         </li>
                         <li>
-                            <i class="nes-icon star"></i> Ingles
+                            <i class="nes-icon star is-half"></i> Ingles
                         </li>
                         <li>
                             <i class="nes-icon star is-half"></i> Aleman
@@ -68,8 +69,8 @@
                     </ul>
                 </section>
 
-                <section class="nes-container is-dark with-title mb-5 shadow-lg">
-                    <h1 class="title">Contacto</h1>
+                <section class="nes-container is-dark with-title mb-5 shadow-lg animate__animated animate__fadeInLeft animate__slow animate__delay-2s">
+                    <h4 class="title">Contacto</h4>
                     <div class="py-3">
                         <a href="#">
                             <i class="nes-icon is-medium github"></i>
@@ -85,49 +86,70 @@
             </div>
 
             <div class="col-md-9">
-                <section class="nes-container with-title mb-5 shadow-lg is-dark">
-                    <h1 class="title">Skills</h1>
-                    <div class="row align-items-center">
-                        <div class="col-md-3">
-                            HTMl
-                        </div>
-                        <div class="col-md-9">
-                            <progress class="nes-progress is-primary" value="90" max="100"></progress>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-3">
-                            CSS
-                        </div>
-                        <div class="col-md-9">
-                            <progress class="nes-progress is-success" value="90" max="100"></progress>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-3">
-                            JavaScript
-                        </div>
-                        <div class="col-md-9">
-                            <progress class="nes-progress is-warning" value="70" max="100"></progress>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-3">
-                            PHP
-                        </div>
-                        <div class="col-md-9">
+                <section class="nes-container with-title mb-5 shadow-lg is-dark animate__animated animate__fadeInDown animate__slower animate__delay-1s">
+                    <h1 class="title">
+                        <i class="nes-icon trophy"></i>
+                        Skills
+                    </h1>
+
+                    <div class="row text-left">
+                        <div class="col-12 col-md-6 mb-2">
+                            <h6>PHP</h6>
                             <progress class="nes-progress is-error" value="70" max="100"></progress>
                         </div>
+                        <div class="col-12 col-md-6 mb-2">
+                            <h6>SQL</h6>
+                            <progress class="nes-progress is-error" value="70" max="100"></progress>
+                        </div>
+
+                        <div class="col-12 col-md-6 mb-2">
+                            <h6>JavaScript</h6>
+                            <progress class="nes-progress is-warning" value="70" max="100"></progress>
+                        </div>
+                        <div class="col-12 col-md-6 mb-2">
+                            <h6>HTML</h6>
+                            <progress class="nes-progress is-primary" value="90" max="100"></progress>
+                        </div>
+
+                        <div class="col-12 col-md-6 mb-2">
+                            <h6>SASS</h6>
+                            <progress class="nes-progress is-warning" value="70" max="100"></progress>
+                        </div>
+                        <div class="col-12 col-md-6 mb-2">
+                            <h6>CSS</h6>
+                            <progress class="nes-progress is-success" value="90" max="100"></progress>
+                        </div>
+
+                        <div class="col-12 col-md-6 mb-2">
+                            <h6>GIT</h6>
+                            <progress class="nes-progress is-primary" value="90" max="100"></progress>
+                        </div>
+                        <div class="col-12 col-md-6 mb-2">
+                            <h6>Linux</h6>
+                            <progress class="nes-progress is-primary" value="90" max="100"></progress>
+                        </div>
+
                     </div>
 
-                    <!-- bootstrap
-                    sass
-                    jquery
-                    reactJS
-                    Laravel
-                    SQL
-                    GIT
-                    Linux -->
+                    <div class="row mt-3">
+                        <div class="col-12 d-flex justify-content-around">
+                            <a href="#" class="nes-badge">
+                                <span class="is-error">Laravel</span>
+                            </a>
+
+                            <a href="#" class="nes-badge">
+                                <span class="is-primary">Bootstrap</span>
+                            </a>
+
+                            <a href="#" class="nes-badge">
+                                <span class="is-success">jQuery</span>
+                            </a>
+
+                            <a href="#" class="nes-badge">
+                                <span class="is-warning">ReactJS</span>
+                            </a>
+                        </div>
+                    </div>
                 </section>
 
                 <h3 class="title mb-4">
@@ -136,7 +158,7 @@
                 </h3>
 
                 <div class="nes-table-responsive mb-5">
-                    <table class="nes-table is-bordered is-centered mx-auto shadow-lg">
+                    <table class="nes-table is-bordered is-centered mx-auto shadow-lg animate__animated animate__fadeInDown animate__slow">
                         <thead>
                             <tr>
                                 <th>Empresa</th>
@@ -146,68 +168,13 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <h6>PeopleContact SAS</h6>
+                                    <h6>CWTI</h6>
                                     <a href="#" class="nes-badge">
-                                        <span class="is-warning">Practica</span>
+                                        <span class="is-success">Fullstack</span>
                                     </a>
                                 </td>
                                 <td>
-                                    <p>Noviembre 2012 - Mayo 2013</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h6>WebDeFamily</h6>
-                                    <a href="#" class="nes-badge">
-                                        <span class="is-primary">Backend</span>
-                                    </a>
-                                </td>
-                                <td>
-                                    <p>Diciembre 2013 - Diciembre 2014</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h6>StarEnWeb</h6>
-                                    <a href="#" class="nes-badge">
-                                        <span class="is-primary">Backend</span>
-                                    </a>
-                                </td>
-                                <td>
-                                    <p>Febrero 2015 - Agosto 2015</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h6>ProcessMaker</h6>
-                                    <a href="#" class="nes-badge">
-                                        <span class="is-success">Frontend</span>
-                                    </a>
-                                </td>
-                                <td>
-                                    <p>Octubre 2016 - Noviembre 2017</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h6>Co-Workers</h6>
-                                    <a href="#" class="nes-badge">
-                                        <span class="is-success">Frontend</span>
-                                    </a>
-                                </td>
-                                <td>
-                                    <p>Agosto 2017 - Marzo 2018</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h6>S.Q.D.M. S.A.S.</h6>
-                                    <a href="#" class="nes-badge">
-                                        <span class="is-primary">Backend</span>
-                                    </a>
-                                </td>
-                                <td>
-                                    <p>Julio 2018 - Marzo 2019</p>
+                                    <p>Junio 2020 - Septiembre 2020</p>
                                 </td>
                             </tr>
                             <tr>
@@ -223,32 +190,80 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <h6>CWTI</h6>
+                                    <h6>S.Q.D.M. S.A.S.</h6>
                                     <a href="#" class="nes-badge">
-                                        <span class="is-dark">Fullstack</span>
+                                        <span class="is-primary">Backend</span>
                                     </a>
                                 </td>
                                 <td>
-                                    <p>Junio 2020 - Septiembre 2020</p>
+                                    <p>Julio 2018 - Marzo 2019</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>Co-Workers</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-warning">Frontend</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Agosto 2017 - Marzo 2018</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>ProcessMaker</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-warning">Frontend</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Octubre 2016 - Noviembre 2017</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>StarEnWeb</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-primary">Backend</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Febrero 2015 - Agosto 2015</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>WebDeFamily</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-primary">Backend</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Diciembre 2013 - Diciembre 2014</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>PeopleContact SAS</h6>
+                                    <a href="#" class="nes-badge">
+                                        <span class="is-error">Practica</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Noviembre 2012 - Mayo 2013</p>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
 
-                <section class="nes-container with-title mb-4 is-dark shadow-lg">
-                    <h1 class="title">Educación</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-md-9">
-                            <p>Tecnólogia en:</p>
-                            <h6>Analisis y Desarrollo de Sistemas de Indormación (ADSI)</h6>
-                            <small>Servicio Nacional de Aprendizaje (SENA)</small>
-                        </div>
-                        <div class="col-md-3">
-                            <p>2011 - 2013</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
+                <section class="nes-container with-title mb-4 is-dark shadow-lg animate__animated animate__fadeInDown animate__slow">
+                    <h1 class="title">
+                        <i class="nes-icon trophy"></i>
+                        Educación
+                    </h1>
+                    <div class="row align-items-center mt-5 mb-4">
                         <div class="col-md-9">
                             <p>Especialización en:</p>
                             <h6>Desarrollo de aplicaciones para dispositivos moviles</h6>
@@ -256,6 +271,16 @@
                         </div>
                         <div class="col-md-3">
                             <p>2015 - 2016</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mt-5">
+                        <div class="col-md-9">
+                            <p>Tecnólogia en:</p>
+                            <h6>Analisis y Desarrollo de Sistemas de Indormación (ADSI)</h6>
+                            <small>Servicio Nacional de Aprendizaje (SENA)</small>
+                        </div>
+                        <div class="col-md-3">
+                            <p>2011 - 2013</p>
                         </div>
                     </div>
                 </section>

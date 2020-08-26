@@ -7,13 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body class="text-center pt-4 full-body">
     <div class="container p-3 d-flex flex-column h-100 mx-auto">
-        <header class="mb-4">
+        <header class="mb-4 animate__animated animate__fadeIn animate__delay-1s animate__slow">
             <h3 class="masthead-brand">
-                <i class="nes-icon coin"></i> Alejandro
+                <i class="nes-icon star"></i> Alejandro
             </h3>
             <nav class="nav nav-masthead justify-content-center">
                 <a href="index.html" class="nav-link text-black-50">Inicio</a>
@@ -22,61 +23,67 @@
                 <a href="contact.html" class="nav-link active text-black-50">Contacto</a>
             </nav>
         </header>
-        <main role="main" class="nes-container with-title is-centered my-5 shadow-lg mb-5 bg-warning">
-            <h1 class="title">Contacto</h1>
+        <main role="main" class="nes-container with-title my-5 shadow-lg mb-5 bg-warning animate__animated animate__fadeInDown animate__slow">
+            <h1 class="title">
+                <i class="nes-icon coin"></i>
+                Contacto
+            </h1>
             <div class="row justify-content-center">
                 <div class="col-6">
                     <form action="" class="form-horizontal">
-                        <div class="nes-balloon from-left mt-4">
-                            <h6 class="text-center mb-4">
-                                Enviame un mesaje, correo o contactame por redes sociales
+                        <div class="nes-balloon from-left mt-4 mb-5 shadow-lg">
+                            <h6 class="text-left mb-4">
+                                Enviame un mensaje, correo o contactame por redes sociales..
                             </h6>
                         </div>
 
-                        <div class="form-group mt-4">
+                        <div class="form-group mb-5">
                             <label for="name" class="control-label">Nombre</label>
                             <div class="col-md-12">
-                                <input type="text" class="nes-input form-control" id="name" placeholder="Tu nombre">
+                                <input type="text" class="nes-input form-control shadow" id="name" placeholder="Tu nombre">
                             </div>
                         </div>
 
-                        <div class="form-group">
+                        <div class="form-group mb-5">
                             <label for="name" class="control-label">Correo</label>
                             <div class="col-md-12">
-                                <input type="text" class="nes-input form-control" id="email" placeholder="Tu correo">
+                                <input type="text" class="nes-input form-control shadow" id="email" placeholder="Tu correo">
                             </div>
                         </div>
 
-                        <div class="form-group mb-3">
+                        <div class="form-group mb-5">
                             <label for="name" class="control-label">Mensaje</label>
                             <div class="col-md-12">
-                                <textarea rows="5" class="nes-input form-control" id="message" placeholder="Ingresa tu mnesaje"></textarea>
+                                <textarea rows="5" class="nes-input form-control shadow" id="message" placeholder="Ingresa tu mensaje"></textarea>
                             </div>
                         </div>
 
-                        <div class="row justify-content-center mt-4">
+                        <div class="row justify-content-center my-4">
                             <div class="col-10">
-                                <button type="submit" class="nes-btn is-primary btn-block">Enviar</buttonty>
+                                <button type="submit" class="nes-btn is-primary btn-block shadow">Enviar</buttonty>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
         </main>
-        <div class="nes-container is-center with-title my-4 shadow-lg bg-warning">
-            <h1 class="title">Redes</h1>
-        <div class="icon-list">
-            <a href="#">
-                <i class="nes-icon is-medium github"></i>
-            </a>
-            <a href="#">
-                <i class="nes-icon is-medium linkedin"></i>
-            </a>
-            <a href="#">
-                <i class="nes-icon is-medium gmail"></i>
-            </a>
-        </div>
-        </div>
+        <section class="nes-container with-title my-4 shadow-lg bg-warning">
+            <h1 class="title">
+                <i class="nes-icon heart"></i>
+                Redes
+            </h1>
+            <div class="icon-list d-flex justify-content-around py-2">
+                <a href="#">
+                    <i class="nes-icon is-medium github shadow"></i>
+                </a>
+                <a href="#">
+                    <i class="nes-icon is-medium linkedin shadow"></i>
+                </a>
+                <a href="#">
+                    <i class="nes-icon is-medium gmail shadow"></i>
+                </a>
+            </div>
+        </section>
         <footer class="mt-5">
             <p>Hecho con <i class="nes-icon is-small heart"></i> por <a href="https://alejandro-ser.github.io/" target="_blank">@alejo</a></p>
         </footer>
