@@ -7,13 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body class="text-center pt-4 full-body">
     <div class="container p-3 d-flex flex-column h-100 mx-auto">
-        <header class="mb-4">
+        <header class="mb-4 animate__animated animate__fadeIn animate__delay-1s animate__slow">
             <h3 class="masthead-brand">
-                <i class="nes-icon coin"></i> Alejandro
+                <i class="nes-icon star"></i> Alejandro
             </h3>
             <nav class="nav nav-masthead justify-content-center">
                 <a href="index.html" class="nav-link text-black-50">Inicio</a>
@@ -22,47 +23,45 @@
                 <a href="contact.html" class="nav-link text-black-50">Contacto</a>
             </nav>
         </header>
-        <div class="container nes-container shadow-lg mb-5 bg-warning">
+        <div class="container nes-container shadow-lg mb-5 bg-warning animate__animated animate__fadeInDown animate__slow">
             <div class="col-md-12">
                 <h2 class="mb-3">Proyectos</h2>
             </div>
             <div class="col-md-12 mb-4">
-                <button type="" class="nes-btn">Todo</button>
-                <button type="" class="nes-btn is-success">Frontend</button>
-                <button type="" class="nes-btn is-warning">Backend</button>
-                <button type="" class="nes-btn is-error">Otros</button>
+                <button type="button" class="nes-btn filter-button" data-filter="all">Todo</button>
+                <button type="button" class="nes-btn is-success filter-button" data-filter="frontend">Frontend</button>
+                <button type="button" class="nes-btn is-warning filter-button" data-filter="backend">Backend</button>
+                <button type="button" class="nes-btn is-error filter-button" data-filter="others">Otros</button>
             </div>
             <div class="row mb-4">
-                <div class="m-auto nes-pointer col-md-4">
+                <div class="my-3 nes-pointer col-12 col-md-4 filter frontend">
                     <img src="assets/img/portfolio/cabin.png" class="img-fluid shadow" alt="">
                 </div>
-                <div class="m-auto nes-pointer col-md-4">
-                    <img src="assets/img/portfolio/cake.png" class="img-fluid shadow" alt="">
+                <div class="m-auto nes-pointer col-12 col-md-4 filter backend">
+                    <img src="assets/img/portfolio/cake.png" class="img-fluid shadow my-3" alt="">
                 </div>
-                <div class="m-auto nes-pointer col-md-4">
-                    <img src="assets/img/portfolio/circus.png" class="img-fluid shadow" alt="">
+                <div class="m-auto nes-pointer col-12 col-md-4 filter others">
+                    <img src="assets/img/portfolio/circus.png" class="img-fluid shadow my-3" alt="">
                 </div>
-            </div>
-            <div class="row mb-4">
-                <div class="m-auto nes-pointer col-md-4">
-                    <img src="assets/img/portfolio/game.png" class="img-fluid shadow" alt="">
+
+                <div class="m-auto nes-pointer col-12 col-md-4 filter backend">
+                    <img src="assets/img/portfolio/game.png" class="img-fluid shadow my-3" alt="">
                 </div>
-                <div class="m-auto nes-pointer col-md-4">
-                    <img src="assets/img/portfolio/safe.png" class="img-fluid shadow" alt="">
+                <div class="m-auto nes-pointer col-12 col-md-4 filter frontend">
+                    <img src="assets/img/portfolio/safe.png" class="img-fluid shadow my-3" alt="">
                 </div>
-                <div class="m-auto nes-pointer col-md-4">
-                    <img src="assets/img/portfolio/submarine.png" class="img-fluid shadow" alt="">
+                <div class="m-auto nes-pointer col-12 col-md-4 filter others">
+                    <img src="assets/img/portfolio/submarine.png" class="img-fluid shadow my-3" alt="">
                 </div>
-            </div>
-            <div class="row mb-4">
-                <div class="m-auto nes-pointer col-md-4">
-                    <img src="assets/img/portfolio/cabin.png" class="img-fluid shadow" alt="">
+
+                <div class="m-auto nes-pointer col-12 col-md-4 filter others">
+                    <img src="assets/img/portfolio/cabin.png" class="img-fluid shadow my-3" alt="">
                 </div>
-                <div class="m-auto nes-pointer col-md-4">
-                    <img src="assets/img/portfolio/cake.png" class="img-fluid shadow" alt="">
+                <div class="m-auto nes-pointer col-12 col-md-4 filter backend">
+                    <img src="assets/img/portfolio/cake.png" class="img-fluid shadow my-3" alt="">
                 </div>
-                <div class="m-auto nes-pointer col-md-4">
-                    <img src="assets/img/portfolio/circus.png" class="img-fluid shadow" alt="">
+                <div class="m-auto nes-pointer col-12 col-md-4 filter frontend">
+                    <img src="assets/img/portfolio/circus.png" class="img-fluid shadow my-3" alt="">
                 </div>
             </div>
         </div>
@@ -74,5 +73,18 @@
     <!-- Scripts JS-->
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".filter-button").click(function(){
+                var value = $(this).attr('data-filter');
+                if (value == "all") {
+                    $('.filter').show('1000');
+                } else {
+                    $('.filter').not('.'+value).hide('1000');
+                    $('.filter').filter('.'+value).show('1000');
+                }
+            })
+        })
+    </script>
 </body>
 </html>

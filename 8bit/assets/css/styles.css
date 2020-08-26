@@ -4,6 +4,11 @@ body {
     /*box-shadow: inset 0 0 2.2rem rgba(0, 0, 0, 0.5);*/
     font-size: 14px;
     background-color: #ffffff;
+    color: #212529;
+}
+
+h1,h2 {
+    color: #212529;
 }
 
 .full-body {
@@ -34,6 +39,44 @@ body {
 
 .is-dark li {
   list-style-type: katakana;
+}
+
+.nes-container.with-title > h1.title {
+    font-size: 1.5rem;
+}
+
+.nes-container.with-title > h2.title {
+    font-size: 1.2rem;
+}
+
+.nes-container.with-title > p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.nes-progress {
+    height: 1.8rem;
+}
+
+a.nes-badge > span.is-primary:first-child,
+a.nes-badge > span.is-error:first-child,
+a.nes-badge > span.is-dark:first-child,
+a.nes-badge > span.is-success:first-child,
+a.nes-badge > span.is-warning:first-child {
+    position: relative;
+    padding: 0.2rem 1rem;
+}
+
+.nes-img {
+    border-color: #000;
+    border-style: solid;
+    border-width: 8px;
+    border-image-slice: 3;
+    border-image-width: 3;
+    border-image-repeat: stretch;
+    border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="8" height="8" xmlns="http://www.w3.org/2000/svg"><path d="M3 1 h1 v1 h-1 z M4 1 h1 v1 h-1 z M2 2 h1 v1 h-1 z M5 2 h1 v1 h-1 z M1 3 h1 v1 h-1 z M6 3 h1 v1 h-1 z M1 4 h1 v1 h-1 z M6 4 h1 v1 h-1 z M2 5 h1 v1 h-1 z M5 5 h1 v1 h-1 z M3 6 h1 v1 h-1 z M4 6 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
+    border-image-outset: 8px;
+    position: relative;
 }
 
 @media (min-width: 48em) {
