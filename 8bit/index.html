@@ -11,7 +11,21 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body class="text-center pt-4 full-body">
-    <div class="container p-3 d-flex flex-column h-100 mx-auto">
+    <!-- <div id="preloader">
+        <div class="preload">
+            <iframe id="bgVid" frameborder="0" height="100%" width="100%"
+                    src=""></iframe>
+        </div>
+        <div class="container">
+            <div class="col-12 mb-3">
+                <progress class="nes-progress is-pattern bar" value="0" max="100"></progress>
+            </div>
+            <div class="col-12">
+                <button id="skip" class="nes-btn">Saltar</button>
+            </div>
+        </div>
+    </div> -->
+    <div class="container p-3 d-flex flex-column">
         <header class="mb-5 animate__animated animate__fadeIn animate__delay-1s animate__slow">
             <h3 class="masthead-brand">
                 <i class="nes-icon star"></i> Alejandro
@@ -39,5 +53,40 @@
     <!-- Scripts JS-->
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- <script>
+        $(document).ready(function(){
+            var rand = Math.floor(Math.random() * Math.floor(1000));
+            var src = "https://youtube.com/embed/c2LTcQwmOV4?start=${rand}&autoplay=1&moodestbranding=1&autohide=1&shoiwinfo=0&controls=0&mude=1";
+            var element = document.getElementById("bgVid");
+            element.src = src;
+
+            preloaderFadeOutTime = 500;
+            function hidePreloader() {
+                var preloader = $("#preloader");
+                var progress = setInterval(function(){
+                    var $bar = $('.bar');
+                    document.getElementById('skip').onclick = function () {
+                        endVid()
+                    };
+
+                    function endVid() {
+                        clearInterval(progress);
+                        preloader.fadeOut(preloaderFadeOutTime);
+                        element.remove();
+                    }
+
+                    if ($bar.val() >= 100){
+                        endVid();
+                    } else {
+                        $bar.val($bar.val() + 2);
+                    }
+                }, 100);
+            }
+
+            hidePreloader();
+        });
+
+    </script> -->
 </body>
 </html>
