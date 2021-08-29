@@ -1,6 +1,12 @@
-## Welcome to my personal portfolio
+## Welcome to my personal web portfolio!
 
-### [https://alejandro-ser.github.io](https://alejandro-ser.github.io)
+### I'm Alejandro S. Giraldo
+
+### FullStack Web Developer
+### An enthusiast about technology and web development. Passionate on learning new.
+
+Checking the website just clicking the next link
+## [https://alejandro-ser.github.io](https://alejandro-ser.github.io)
 
 
 
@@ -10,7 +16,7 @@
 
 
 
-### Markdown
+<!-- ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
@@ -32,4 +38,4 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/). -->
