@@ -134,3 +134,11 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive)
+
+// ==================== CONTACT FORM ====================
+
+const contactBtn = document.getElementById('send-message');
+contactBtn.addEventListener('click', e => {
+    alert('Under construction!')
+    alert('Please send and e-mail to alejosegi@gmail.com')
+})
