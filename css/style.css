@@ -1102,7 +1102,7 @@ img{
 	height: 11px;
 	display: block;
 	border-radius: 10px;
-	background: #062744;
+	background: var(--first-color);
 	opacity: 0.2;
 	transition: all 0.3s;
 }
@@ -1304,7 +1304,7 @@ form textarea{
 .footer__copy{
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color);
+    color: var(--text-color-light);
     margin-top: var(--mb-3);
 }
 
@@ -1401,6 +1401,10 @@ form textarea{
         margin-top: var(--mb-0-25);
     }
 
+    .home__data{
+        transform: translateX(-1rem);
+    }
+
     .home__scroll-mouse{
         margin-top: var(--mb-0-25);
     }
@@ -1411,6 +1415,10 @@ form textarea{
 
     .qualification__data{
         gap: 0.5rem;
+    }
+
+    .qualification__start-icon{
+        transform: translateY(1.2rem);
     }
 
     .contact_mail{
@@ -1440,6 +1448,7 @@ form textarea{
 
     .home__data{
         grid-column: initial;
+        transform: translateX(-1rem);
     }
 
     .about__container,
@@ -1468,7 +1477,11 @@ form textarea{
 
     .qualification__start-icon{
         position: absolute;
-        transform: translateY(60%);
+        transform: translateY(1.5rem);
+    }
+
+    .contact_mail {
+        margin-left: var(--mb-1-5);
     }
 }
 
@@ -1611,6 +1624,11 @@ form textarea{
 
     .home__social{
         transform: translateY(-7.5rem);
+    }
+
+    .home__data {
+        grid-column: initial;
+        transform: translateX(-4rem);
     }
 
     .contact-form{

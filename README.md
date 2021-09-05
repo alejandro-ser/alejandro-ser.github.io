@@ -1,12 +1,15 @@
-## Welcome to my personal web portfolio!
+## Welcome to my personal web portfolio! :briefcase:
 
 ### I'm Alejandro S. Giraldo
 
-### FullStack Web Developer
+### FullStack Web Developer :technologist:
 ### An enthusiast about technology and web development. Passionate on learning new.
 
-Checking the website just clicking the next link
+Checking the website just clicking in the next link
 ## [https://alejandro-ser.github.io](https://alejandro-ser.github.io)
+
+>This portfolio was builded based on this Udemy course:
+> [https://www.udemy.com/course/build-your-own-awesome-responsive-personal-portfolio-site](https://www.udemy.com/course/build-your-own-awesome-responsive-personal-portfolio-site)
 
 
 
