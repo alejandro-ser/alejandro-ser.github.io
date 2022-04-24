@@ -8,7 +8,7 @@
 ### 🖥️  See my portfolio at [https://alejandro-ser.github.io](http://alejandro-ser.github.io/)
 ### ✉️  You can contact me at [alejosegi@gmail.com](mailto:alejosegi@gmail.com)
 ### 🚀  I'm currently working on [Melibo](http://melibo.de/)🤖
-### 🧠  I'm learning Angular, ReactJS
+### 🧠  I'm learning Angular, ReactJS / German, English
 ### 🤝  I'm open to collaborate on Open Source projects
 ### 🇨🇴    I come from the coffee zone in Colombia
 
