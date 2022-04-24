@@ -1,21 +1,18 @@
 ## Hi 👋 My name is Alejandro Giraldo
 
-### Web Developer :technologist:
+### Web Developer 👨‍💻
 
 ### An enthusiast about technology and web development. Passionate on learning new.
-### * 🌍  I'm based in Frankfurt am Main, Germany
-### * 🖥️  See my portfolio at [https://alejandro-ser.github.io](http://alejandro-ser.github.io/)
-### * ✉️  You can contact me at [alejosegi@gmail.com](mailto:alejosegi@gmail.com)
-### * 🚀  I'm currently working on [Melibo](http://melibo.de/)🤖
-### * 🧠  I'm learning Angular, ReactJS
-### * 🤝  I'm open to collaborating on OpenSource projects
-### * 🇨🇴  I come from the coffee zone in Colombia
 
-<a href="https://www.github.com/alejandro-ser" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/github/followers/alejandro-ser?logo=github&style=for-the-badge&color=a855f7&labelColor=1c1917" />
-</a>
+### 🌍  I'm based in Frankfurt am Main, Germany
+### 🖥️  See my portfolio at [https://alejandro-ser.github.io](http://alejandro-ser.github.io/)
+### ✉️  You can contact me at [alejosegi@gmail.com](mailto:alejosegi@gmail.com)
+### 🚀  I'm currently working on [Melibo](http://melibo.de/)🤖
+### 🧠  I'm learning Angular, ReactJS
+### 🤝  I'm open to collaborate on Open Source projects
+### 🇨🇴    I come from the coffee zone in Colombia
 
-### Skills
+## Skills
 
 <p align="left">
     <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer">
@@ -91,9 +88,11 @@
     </a> -->
 </p>
 
-### Badges
+<!-- <a href="https://www.github.com/alejandro-ser" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/github/followers/alejandro-ser?logo=github&style=for-the-badge&color=a855f7&labelColor=1c1917" />
+</a> -->
 
-<b>My GitHub Stats</b>
+## My GitHub Stats
 
 <a href="http://www.github.com/alejandro-ser"><img src="https://github-readme-stats.vercel.app/api?username=alejandro-ser&show_icons=true&hide=issues,contribs&count_private=true&title_color=a855f7&text_color=14b8a6&icon_color=6366f1&bg_color=1c1917&hide_border=true&show_icons=true" alt="alejandro-ser's GitHub stats" /></a>
 
