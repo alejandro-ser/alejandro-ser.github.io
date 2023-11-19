@@ -4,13 +4,19 @@
 
 ### An enthusiast about technology and web development. Passionate on learning new.
 
-### 🌍  I'm based in Frankfurt am Main, Germany
+### 🤖 Currently working on [`melibo`](http://melibo.de/)
+
+### 🧠 Learning Svelte, Python / German, English
+
+### 🤝 Open to collaborate on Open Source projects
+
+### ☕ I come from the coffee zone in Colombia
+
+### 🌍 Based in Frankfurt am Main, Germany
+
+### ✉️ Contact me at [alejosegi@gmail.com](mailto:alejosegi@gmail.com)
+
 ### 🖥️  See my portfolio at [https://alejandro-ser.github.io](http://alejandro-ser.github.io/)
-### ✉️  You can contact me at [alejosegi@gmail.com](mailto:alejosegi@gmail.com)
-### 🚀  I'm currently working on [Melibo](http://melibo.de/)🤖
-### 🧠  I'm learning Angular, ReactJS / German, English
-### 🤝  I'm open to collaborate on Open Source projects
-### 🇨🇴    I come from the coffee zone in Colombia
 
 ## Skills
 
@@ -28,8 +34,11 @@
         <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="Typescript" />
     </a>
     <a href="https://www.php.net/" target="_blank" rel="noreferrer">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Webysther_20160423_-_Elephpant.svg" width="36" height="36" alt="PHP" />
+        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" />
     </a>
+    <!-- <a href="https://www.php.net/" target="_blank" rel="noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Webysther_20160423_-_Elephpant.svg" width="36" height="36" alt="PHP" />
+    </a> -->
 </p>
 <p align="left">
     <a href="https://sass-lang.com/" target="_blank" rel="noreferrer">
@@ -42,13 +51,19 @@
         <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/jquery-colored.svg" width="36" height="36" alt="JQuery" />
     </a>
     <a href="https://angular.io/" target="_blank" rel="noreferrer">
-        <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="36" height="36" alt="Angular" />
+        <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="36" height="36" alt="ullAngular" />
+    </a>    
+    <a href="https://svelte.dev/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/svelte-colored.svg" width="36" height="36" alt="Svelte" />
     </a>
-    <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+    <!-- <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" />
-    </a>
+    </a> -->
     <a href="https://ionicframework.com/" target="_blank" rel="noreferrer">
         <img src="https://www.vectorlogo.zone/logos/ionicframework/ionicframework-icon.svg" width="36" height="36" alt="Ionic" />
+    </a>
+    <a href="https://docs.nestjs.com/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg" width="36" height="36" alt="NestJS" />
     </a>
     <a href="https://laravel.com/" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg" width="36" height="36" alt="Lavarel" />
@@ -63,11 +78,17 @@
     </a>
 </p>
 <p align="left">
-    <a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank" rel="noreferrer">
+    <!--<a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored.svg" width="36" height="36" alt="Photoshop" />
-    </a>
+    </a>-->
     <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" />
+    </a>
+    <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" />
+    </a>
+    <a href="https://www.linux.org" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="36" height="36" alt="Linux" />
     </a>
 </p>
 
