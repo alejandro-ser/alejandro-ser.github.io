@@ -1,4 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@font-face {
+  font-family: "Russo One";
+  src: url("../assets/fonts/russo-one.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/MavenPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("../assets/fonts/RobotoMono-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
 
 /* ========== VARIABLES CSS ========== */
 
